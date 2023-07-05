@@ -1,0 +1,82 @@
+actions:
+  actions:
+    7bacc107-7997-4173-ba9d-3193715f6e35:
+      applicationId: a689092d-5eea-49ed-91f7-b917ad6f0efa
+      configuration:
+        bodyType: jsonBody
+        fileFormKey: file
+        formData:
+          - key: ""
+            value: ""
+        headers:
+          - key: Content-Type
+            value: application/json
+          - key: ""
+            value: ""
+        httpMethod: GET
+        params:
+          - key: ""
+            value: ""
+        path: fasfa
+        responseType: auto
+        superblocksMetadata:
+          pluginVersion: 0.0.12
+      datasourceId: a2deac8e-c36f-4ec5-9b35-476d68f68536
+      id: 7bacc107-7997-4173-ba9d-3193715f6e35
+      name: Step2
+      pluginId: restapi
+      type: 0
+    8a87faa3-327c-41c9-bc34-ba20fe4ea897:
+      applicationId: a689092d-5eea-49ed-91f7-b917ad6f0efa
+      children:
+        7bacc107-7997-4173-ba9d-3193715f6e35: 7bacc107-7997-4173-ba9d-3193715f6e35
+      configuration:
+        body: >
+          /*
+           * You can use Javascript Functions to:
+           *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+           *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
+           *   3. Make http calls via axios
+           *
+           * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
+           */
+
+          const obj = {str: "hellod fworlad"};
+
+          console.log(obj.str);
+
+          return obj;
+        superblocksMetadata:
+          pluginVersion: 0.0.9
+      datasourceId: f3cd1206-bb99-4e45-a8a3-91cc23f2a16d
+      id: 8a87faa3-327c-41c9-bc34-ba20fe4ea897
+      name: Step1
+      pluginId: javascript
+      type: 0
+  bindings: []
+  name: API1
+  triggerActionId: 8a87faa3-327c-41c9-bc34-ba20fe4ea897
+  triggerType: 0
+apiPb: null
+applicationId: a689092d-5eea-49ed-91f7-b917ad6f0efa
+creator: {}
+folderId: null
+id: 55faff6f-aff2-4bb2-a6c2-955329a32497
+isDeployed: false
+name: API1
+organizationId: 441f8c45-985a-4f7e-bd1e-ec028536e222
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - b1b7daf2-c9fc-42ee-b508-a71301617b99
+        - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+      defaultProfileId: b1b7daf2-c9fc-42ee-b508-a71301617b99
+    editor:
+      availableProfileIds:
+        - b1b7daf2-c9fc-42ee-b508-a71301617b99
+        - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+      defaultProfileId: bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+triggerType: 0
+updated: 1683047982498

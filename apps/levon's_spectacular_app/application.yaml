@@ -1,0 +1,39 @@
+created: 2023-05-02T14:18:16.995Z
+creator:
+  id: 653f338b-c6b2-40ae-8ce3-042cc0f66243
+  name: Levon Arakeylan
+deletedAt: null
+deployedCommitId: 825c6bdc-7514-4d50-9006-776dfbb3058d
+folderId: null
+id: a689092d-5eea-49ed-91f7-b917ad6f0efa
+isDeployed: true
+isEditable: true
+isPublic: false
+name: Levon's Spectacular App
+organizationId: 441f8c45-985a-4f7e-bd1e-ec028536e222
+pages:
+  - id: 1c344cbe-56ea-4eb5-ab0e-4ed860657ab7
+    isDefault: true
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - b1b7daf2-c9fc-42ee-b508-a71301617b99
+        - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+      defaultProfileId: b1b7daf2-c9fc-42ee-b508-a71301617b99
+    editor:
+      availableProfileIds:
+        - b1b7daf2-c9fc-42ee-b508-a71301617b99
+        - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+      defaultProfileId: bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+    preview:
+      availableProfileIds:
+        - b1b7daf2-c9fc-42ee-b508-a71301617b99
+        - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+      defaultProfileId: bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+updated: 2023-05-02T19:46:13.956Z
+userPermissions:
+  - manage:applications
+  - read:applications
+  - publish:applications
+  - makePublic:applications

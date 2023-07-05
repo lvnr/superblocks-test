@@ -1,0 +1,147 @@
+actions:
+  actions:
+    5f189a3c-4581-4e6c-a10e-5be410e04520:
+      applicationId: cc59e8fd-5db6-49e0-8197-94848237b431
+      configuration:
+        body: >
+          # Use Python to:
+
+          #
+
+          # 1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+
+          # 2. Write logic referencing UI components (ex. Table1.selectedRow.id)
+
+          # 3. Make http calls using requests (import requests)
+
+          #
+
+          # More libraries are coming in the future. Superblocks uses Python 3.
+
+
+          return { "value": "Hello Superbbalocks!" }
+        superblocksMetadata:
+          pluginVersion: 0.0.7
+      datasourceId: python
+      id: 5f189a3c-4581-4e6c-a10e-5be410e04520
+      name: Step2
+      pluginId: python
+      type: 0
+    b3f6f3af-6801-4556-a3d5-87f1b50c8d0c:
+      applicationId: cc59e8fd-5db6-49e0-8197-94848237b431
+      children:
+        5f189a3c-4581-4e6c-a10e-5be410e04520: 5f189a3c-4581-4e6c-a10e-5be410e04520
+      configuration:
+        body: >
+          /*
+           * You can use Javascript Functions to:
+           *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+           *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
+           *   3. Make http calls via axios
+           *
+           * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
+           */
+
+          const obj = {str: "helfblo vsgwoafrld"};
+
+          console.log(obj.str);
+
+          return obj;
+        superblocksMetadata:
+          pluginVersion: 0.0.9
+      datasourceId: javascript
+      id: b3f6f3af-6801-4556-a3d5-87f1b50c8d0c
+      name: Step1
+      pluginId: javascript
+      type: 0
+  bindings: []
+  name: API
+  triggerActionId: b3f6f3af-6801-4556-a3d5-87f1b50c8d0c
+  triggerType: 0
+  workflowParams:
+    - key: body
+      value: {}
+  workflowQueries:
+    - key: params
+      value: {}
+apiPb:
+  blocks:
+    - name: Step1
+      step:
+        integration: javascript
+        javascript:
+          body: >
+            /*
+             * You can use Javascript Functions to:
+             *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+             *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
+             *   3. Make http calls via axios
+             *
+             * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
+             */
+
+            const obj = {str: "helfblo vsgwoafrld"};
+
+            console.log(obj.str);
+
+            return obj;
+          superblocksMetadata:
+            pluginVersion: 0.0.9
+    - name: Step2
+      step:
+        integration: python
+        python:
+          body: >
+            # Use Python to:
+
+            #
+
+            # 1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+
+            # 2. Write logic referencing UI components (ex. Table1.selectedRow.id)
+
+            # 3. Make http calls using requests (import requests)
+
+            #
+
+            # More libraries are coming in the future. Superblocks uses Python 3.
+
+
+            return { "value": "Hello Superbbalocks!" }
+          superblocksMetadata:
+            pluginVersion: 0.0.7
+  metadata:
+    description: ""
+    folder: ""
+    id: b5949b82-e634-44e9-9410-2ea77420805c
+    name: API
+    organization: 441f8c45-985a-4f7e-bd1e-ec028536e222
+    tags: {}
+    timestamps: {}
+    version: ""
+  trigger:
+    application:
+      id: cc59e8fd-5db6-49e0-8197-94848237b431
+      options: {}
+applicationId: cc59e8fd-5db6-49e0-8197-94848237b431
+creator: {}
+folderId: null
+id: b5949b82-e634-44e9-9410-2ea77420805c
+isDeployed: false
+name: API
+organizationId: 441f8c45-985a-4f7e-bd1e-ec028536e222
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - b1b7daf2-c9fc-42ee-b508-a71301617b99
+        - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+      defaultProfileId: b1b7daf2-c9fc-42ee-b508-a71301617b99
+    editor:
+      availableProfileIds:
+        - b1b7daf2-c9fc-42ee-b508-a71301617b99
+        - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+      defaultProfileId: bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+triggerType: 0
+updated: 1686575332113

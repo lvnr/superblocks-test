@@ -1,0 +1,26 @@
+{
+  "configType": "ROOT",
+  "metadata": {
+    "cliVersion": "0.0.7",
+    "created": 1688571022591,
+    "lastUpdated": 1688571022591,
+    "remote": "http://127.0.0.1:3000/"
+  },
+  "resources": {
+    "5b0ab32c-5acb-4bff-9a7f-d1eb5f94ed98": {
+      "lastUpdated": 1688571044600,
+      "location": "backends/levon's_magnificent_workflow",
+      "resourceType": "BACKEND"
+    },
+    "a689092d-5eea-49ed-91f7-b917ad6f0efa": {
+      "lastUpdated": 1688571044600,
+      "location": "apps/levon's_spectacular_app",
+      "resourceType": "APPLICATION"
+    },
+    "cc59e8fd-5db6-49e0-8197-94848237b431": {
+      "lastUpdated": 1688571044600,
+      "location": "apps/levon's_great_app",
+      "resourceType": "APPLICATION"
+    }
+  }
+}

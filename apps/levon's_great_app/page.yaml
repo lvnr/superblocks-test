@@ -1,0 +1,93 @@
+applicationId: cc59e8fd-5db6-49e0-8197-94848237b431
+id: 48163481-6a23-482b-bdca-0a321b211262
+isHidden: false
+layouts:
+  - actionUpdates: []
+    dsl:
+      apis:
+        apiMap:
+          b5949b82-e634-44e9-9410-2ea77420805c:
+            dynamicBindingPathList: []
+            dynamicTriggerPathList:
+              - key: onError
+              - key: onSuccess
+            id: b5949b82-e634-44e9-9410-2ea77420805c
+            onError:
+              - id: c6ed1ce4-c283-46a7-a551-91929d03e4cc
+                message: "{{API1.error}}"
+                style: error
+                type: showAlert
+            onSuccess:
+              - id: f2wh3pvimh
+                newWindow: true
+      backgroundColor: none
+      bottomRow: 107
+      cachedData:
+        pageLoadActions:
+          apiDeps: {}
+          apiNames: []
+      canExtend: true
+      children:
+        - animateLoading: true
+          bottomRow: 12
+          isLoading: false
+          isVisible: true
+          leftColumn: 26
+          parentId: "0"
+          rightColumn: 41
+          snapColumns: 15
+          snapRows: 3
+          text: Label
+          textAlign: LEFT
+          textStyle: LABEL
+          textType: text
+          topRow: 9
+          type: TEXT_WIDGET
+          verticalAlign: AUTO
+          widgetId: 2g7amoh0kf
+          widgetLastChange: 2023-06-12T16:03:34.736Z
+          widgetName: Text1
+        - animateLoading: true
+          bottomRow: 19
+          buttonStyle: PRIMARY_BUTTON
+          docsUrl: https://docs.superblocks.com/components/button
+          dynamicBindingPathList: []
+          dynamicTriggerPathList:
+            - key: onClick
+          isDefaultClickDisabled: true
+          isDisabled: false
+          isLoading: false
+          isVisible: true
+          leftColumn: 1
+          onClick:
+            - id: bf5y2qr5uo
+              newWindow: true
+          parentId: "0"
+          rightColumn: 13
+          snapColumns: 12
+          text: Submit
+          topRow: 16
+          type: BUTTON_WIDGET
+          widgetId: 8wjniv8k13
+          widgetLastChange: 2023-06-12T16:03:23.620Z
+          widgetName: Button1
+      containerStyle: none
+      detachFromLayout: true
+      dynamicBindingPathList: []
+      dynamicTriggerPathList: []
+      minHeight: 1292
+      snapColumns: 96
+      snapRows: 99
+      topRow: 0
+      type: CANVAS_WIDGET
+      version: 6
+      widgetId: "0"
+      widgetLastChange: 2023-06-12T16:03:23.620Z
+      widgetName: MainContainer
+    id: d5c60bf8-9b67-4b8d-a6d5-59c15dca096c
+    layoutOnLoadActions: []
+    messages: []
+    updated: 2023-06-12T16:03:35.366Z
+    userPermissions: []
+name: Page1
+updated: 2023-06-12T16:03:35.366Z
