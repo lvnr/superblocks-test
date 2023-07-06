@@ -31,7 +31,7 @@ settings:
         - b1b7daf2-c9fc-42ee-b508-a71301617b99
         - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
       defaultProfileId: bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
-updated: 2023-05-02T19:46:13.956Z
+updated: 2023-05-02T19:46:18.417Z
 userPermissions:
   - manage:applications
   - read:applications
