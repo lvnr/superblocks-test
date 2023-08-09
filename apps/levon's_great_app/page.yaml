@@ -29,26 +29,26 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 12
+          bottomRow: 15
           isLoading: false
           isVisible: true
-          leftColumn: 26
+          leftColumn: 2
           parentId: "0"
-          rightColumn: 41
+          rightColumn: 17
           snapColumns: 15
           snapRows: 3
           text: Label
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 9
+          topRow: 12
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: 2g7amoh0kf
-          widgetLastChange: 2023-06-12T16:03:34.736Z
+          widgetLastChange: 2023-08-09T16:58:37.905Z
           widgetName: Text1
         - animateLoading: true
-          bottomRow: 19
+          bottomRow: 10
           buttonStyle: PRIMARY_BUTTON
           docsUrl: https://docs.superblocks.com/components/button
           dynamicBindingPathList: []
@@ -58,18 +58,18 @@ layouts:
           isDisabled: false
           isLoading: false
           isVisible: true
-          leftColumn: 1
+          leftColumn: 2
           onClick:
             - id: bf5y2qr5uo
               newWindow: true
           parentId: "0"
-          rightColumn: 13
+          rightColumn: 14
           snapColumns: 12
           text: Submit
-          topRow: 16
+          topRow: 7
           type: BUTTON_WIDGET
           widgetId: 8wjniv8k13
-          widgetLastChange: 2023-06-12T16:03:23.620Z
+          widgetLastChange: 2023-08-09T16:58:34.000Z
           widgetName: Button1
       containerStyle: none
       detachFromLayout: true
@@ -82,12 +82,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-06-12T16:03:23.620Z
+      widgetLastChange: 2023-08-09T16:58:15.742Z
       widgetName: MainContainer
     id: d5c60bf8-9b67-4b8d-a6d5-59c15dca096c
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-06-12T16:03:35.366Z
+    updated: 2023-08-09T16:59:47.172Z
     userPermissions: []
 name: Page1
-updated: 2023-06-12T16:03:35.366Z
+updated: 2023-08-09T16:59:47.172Z

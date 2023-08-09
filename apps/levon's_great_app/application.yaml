@@ -3,6 +3,7 @@ creator:
   id: 653f338b-c6b2-40ae-8ce3-042cc0f66243
   name: Levon Arakeylan
 deletedAt: null
+deployedAt: null
 deployedCommitId: 5e23bb60-b33d-418b-93d6-e1f84cd80cc0
 folderId: "null"
 id: cc59e8fd-5db6-49e0-8197-94848237b431
@@ -31,7 +32,7 @@ settings:
         - b1b7daf2-c9fc-42ee-b508-a71301617b99
         - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
       defaultProfileId: bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
-updated: 2023-06-12T16:03:35.366Z
+updated: 2023-05-15T18:39:41.830Z
 userPermissions:
   - manage:applications
   - read:applications
