@@ -1,119 +1,9 @@
 actions:
-  actions:
-    28d85f11-8e65-4581-a0f6-e6951f1e985e:
-      applicationId: null
-      configuration:
-        body: >
-          /*
-           * You can use Javascript Functions to:
-           *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
-           *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
-           *   3. Make http calls via axios
-           *
-           * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
-           */
-
-          const obj = {str: "hello worvld"};
-
-          console.log(obj.str);
-
-          return obj;
-        superblocksMetadata:
-          pluginVersion: 0.0.9
-      datasourceId: javascript
-      id: 28d85f11-8e65-4581-a0f6-e6951f1e985e
-      name: Step3
-      pluginId: javascript
-      type: 0
-    7fc7bccf-3a03-41a5-b670-f3bd98459d10:
-      applicationId: null
-      children:
-        876bbc2a-646a-4b14-982a-a9bb2240bf13: 876bbc2a-646a-4b14-982a-a9bb2240bf13
-      configuration:
-        body: >
-          /*
-           * You can use Javascript Functions to:
-           *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
-           *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
-           *   3. Make http calls via axios
-           *
-           * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
-           */
-
-          const obj = {str: "hello gawodrgldd"};
-
-          console.log(obj.str);
-
-          return obj;
-        superblocksMetadata:
-          pluginVersion: 0.0.9
-      datasourceId: javascript
-      id: 7fc7bccf-3a03-41a5-b670-f3bd98459d10
-      name: Step1
-      pluginId: javascript
-      type: 0
-    876bbc2a-646a-4b14-982a-a9bb2240bf13:
-      applicationId: null
-      children:
-        28d85f11-8e65-4581-a0f6-e6951f1e985e: 28d85f11-8e65-4581-a0f6-e6951f1e985e
-      configuration:
-        body: >
-          /*
-           * You can use Javascript Functions to:
-           *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
-           *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
-           *   3. Make http calls via axios
-           *
-           * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
-           */
-
-          const obj = {str: "hellgob wogsrsgald"};
-
-          console.log(obj.str);
-
-          return obj;
-        superblocksMetadata:
-          pluginVersion: 0.0.9
-      datasourceId: javascript
-      id: 876bbc2a-646a-4b14-982a-a9bb2240bf13
-      name: Step2
-      pluginId: javascript
-      type: 0
-  bindings: []
+  actions: {}
   name: Levon's Magnificent Workflow
-  supportedMethod: POST
-  triggerActionId: 7fc7bccf-3a03-41a5-b670-f3bd98459d10
-  triggerType: 1
-  workflowParams:
-    - key: body
-      value: {}
-  workflowQueries:
-    - key: params
-      value:
-        adv: av
+  triggerActionId: 6ae72594-1323-4039-8eee-15c14a08a09a
 apiPb:
   blocks:
-    - name: Step1
-      step:
-        integration: javascript
-        javascript:
-          body: >
-            /*
-             * You can use Javascript Functions to:
-             *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
-             *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
-             *   3. Make http calls via axios
-             *
-             * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
-             */
-
-            const obj = {str: "hello gawodrgldd"};
-
-            console.log(obj.str);
-
-            return obj;
-          superblocksMetadata:
-            pluginVersion: 0.0.9
     - name: Step2
       step:
         integration: javascript
@@ -129,6 +19,27 @@ apiPb:
              */
 
             const obj = {str: "hellgob wogsrsgald"};
+
+            console.log(obj.str);
+
+            return obj;
+          superblocksMetadata:
+            pluginVersion: 0.0.9
+    - name: Step1
+      step:
+        integration: javascript
+        javascript:
+          body: >
+            /*
+             * You can use Javascript Functions to:
+             *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+             *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
+             *   3. Make http calls via axios
+             *
+             * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
+             */
+
+            const obj = {str: "hello gawodrgldd"};
 
             console.log(obj.str);
 
@@ -189,7 +100,7 @@ apiPb:
 applicationId: null
 creator: {}
 deployedCommitId: null
-folderId: null
+folderId: ""
 id: 5b0ab32c-5acb-4bff-9a7f-d1eb5f94ed98
 isDeployed: false
 name: Levon's Magnificent Workflow
@@ -207,5 +118,8 @@ settings:
         - b1b7daf2-c9fc-42ee-b508-a71301617b99
         - bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
       defaultProfileId: bb88dc34-eb54-41c6-b3e1-f49faaea5d0f
+    preview:
+      availableProfileIds: []
+      defaultProfileId: ""
 triggerType: 1
 updated: 1686570517046
