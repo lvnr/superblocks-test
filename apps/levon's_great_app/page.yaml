@@ -48,7 +48,7 @@ layouts:
           widgetLastChange: 2023-08-31T14:40:49.515Z
           widgetName: Text1
         - animateLoading: true
-          bottomRow: 9
+          bottomRow: 7
           buttonStyle: PRIMARY_BUTTON
           docsUrl: https://docs.superblocks.com/components/button
           dynamicBindingPathList: []
@@ -58,18 +58,18 @@ layouts:
           isDisabled: false
           isLoading: false
           isVisible: true
-          leftColumn: 10
+          leftColumn: 3
           onClick:
             - id: bf5y2qr5uo
               newWindow: true
           parentId: "0"
-          rightColumn: 22
+          rightColumn: 15
           snapColumns: 12
           text: Submit
-          topRow: 6
+          topRow: 4
           type: BUTTON_WIDGET
           widgetId: 8wjniv8k13
-          widgetLastChange: 2023-08-31T14:41:17.342Z
+          widgetLastChange: 2023-08-31T14:41:41.134Z
           widgetName: Button1
         - allowZoom: true
           bottomRow: 39
@@ -121,7 +121,7 @@ layouts:
     id: d5c60bf8-9b67-4b8d-a6d5-59c15dca096c
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-31T14:41:29.494Z
+    updated: 2023-08-31T14:41:45.201Z
     userPermissions: []
 name: Page1
-updated: 2023-08-31T14:41:29.494Z
+updated: 2023-08-31T14:41:45.201Z
