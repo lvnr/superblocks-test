@@ -29,7 +29,7 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 15
+          bottomRow: 13
           isLoading: false
           isVisible: true
           leftColumn: 2
@@ -41,14 +41,14 @@ layouts:
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 12
+          topRow: 10
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: 2g7amoh0kf
-          widgetLastChange: 2023-08-09T16:58:37.905Z
+          widgetLastChange: 2023-08-30T16:02:12.418Z
           widgetName: Text1
         - animateLoading: true
-          bottomRow: 10
+          bottomRow: 9
           buttonStyle: PRIMARY_BUTTON
           docsUrl: https://docs.superblocks.com/components/button
           dynamicBindingPathList: []
@@ -66,11 +66,45 @@ layouts:
           rightColumn: 14
           snapColumns: 12
           text: Submit
-          topRow: 7
+          topRow: 6
           type: BUTTON_WIDGET
           widgetId: 8wjniv8k13
-          widgetLastChange: 2023-08-09T16:58:34.000Z
+          widgetLastChange: 2023-08-30T16:02:12.418Z
           widgetName: Button1
+        - allowZoom: true
+          bottomRow: 39
+          defaultMarkers: |-
+            [
+              {
+                "lat": -34.397,
+                "long": 150.644,
+                "title": "Test A"
+              }
+            ]
+          dynamicBindingPathList: []
+          dynamicTriggerPathList:
+            - key: onMarkerClick
+          enablePickLocation: true
+          enableSearch: true
+          isDisabled: false
+          isLoading: false
+          isVisible: true
+          leftColumn: 3
+          mapCenter:
+            lat: -34.397
+            long: 150.644
+          onMarkerClick:
+            - id: z964x8ead6
+              newWindow: true
+          parentId: "0"
+          rightColumn: 27
+          snapColumns: 24
+          topRow: 21
+          type: MAP_WIDGET
+          widgetId: lzlrqyey6q
+          widgetLastChange: 2023-08-30T16:02:31.861Z
+          widgetName: Map1
+          zoomLevel: 50
       containerStyle: none
       detachFromLayout: true
       dynamicBindingPathList: []
@@ -82,12 +116,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-08-09T16:58:15.742Z
+      widgetLastChange: 2023-08-30T16:02:12.418Z
       widgetName: MainContainer
     id: d5c60bf8-9b67-4b8d-a6d5-59c15dca096c
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-09T16:59:47.172Z
+    updated: 2023-08-31T14:40:56.649Z
     userPermissions: []
 name: Page1
-updated: 2023-08-09T16:59:47.172Z
+updated: 2023-08-31T14:40:56.649Z
