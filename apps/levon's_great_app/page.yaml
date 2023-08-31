@@ -45,7 +45,7 @@ layouts:
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: 2g7amoh0kf
-          widgetLastChange: 2023-08-30T16:02:12.418Z
+          widgetLastChange: 2023-08-31T14:40:49.515Z
           widgetName: Text1
         - animateLoading: true
           bottomRow: 9
@@ -58,18 +58,18 @@ layouts:
           isDisabled: false
           isLoading: false
           isVisible: true
-          leftColumn: 2
+          leftColumn: 10
           onClick:
             - id: bf5y2qr5uo
               newWindow: true
           parentId: "0"
-          rightColumn: 14
+          rightColumn: 22
           snapColumns: 12
           text: Submit
           topRow: 6
           type: BUTTON_WIDGET
           widgetId: 8wjniv8k13
-          widgetLastChange: 2023-08-30T16:02:12.418Z
+          widgetLastChange: 2023-08-31T14:41:17.342Z
           widgetName: Button1
         - allowZoom: true
           bottomRow: 39
@@ -102,7 +102,7 @@ layouts:
           topRow: 21
           type: MAP_WIDGET
           widgetId: lzlrqyey6q
-          widgetLastChange: 2023-08-30T16:02:31.861Z
+          widgetLastChange: 2023-08-31T14:40:49.515Z
           widgetName: Map1
           zoomLevel: 50
       containerStyle: none
@@ -116,12 +116,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-08-30T16:02:12.418Z
+      widgetLastChange: 2023-08-31T14:40:49.515Z
       widgetName: MainContainer
     id: d5c60bf8-9b67-4b8d-a6d5-59c15dca096c
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-31T14:40:56.649Z
+    updated: 2023-08-31T14:41:29.494Z
     userPermissions: []
 name: Page1
-updated: 2023-08-31T14:40:56.649Z
+updated: 2023-08-31T14:41:29.494Z
